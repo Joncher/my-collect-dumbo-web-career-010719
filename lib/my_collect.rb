@@ -6,6 +6,5 @@ def my_collect(array)
     yield array[n]
     array2 << array[n]
     n += 1
-    binding.pry
   end
 end

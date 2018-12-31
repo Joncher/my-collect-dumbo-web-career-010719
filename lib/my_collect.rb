@@ -5,6 +5,8 @@ def my_collect(array)
   while n < array.length
     yield array[n]
     array2 << array[n]
+    puts array2 
     n += 1
+    
   end
 end
